@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+/* Navbar */
+
+.navbar{
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-logo{
+    width: 8vw;
+    height: 4vh;
+}
+
+.nav-logo .logo{
+    background-image: url(Assets/urbanic_logo.png);
+    background-size: contain;
+    width: 8vw;
+    height: 4vh;
+}
+
+.nav-items ul{
+    display: flex;
+}
+
+.nav-items ul li{
+    list-style: none;
+    padding: 0px 8px;
+    color: rgb(45, 45, 45);
+    font-weight: 560;
+    font-size: 0.9rem;
+}
+
+.nav-items ul li:hover
+{
+    cursor: pointer;
+}
+
+.nav-items ul li:hover:nth-child(1)
+{
+    color: rgb(213, 140, 4);
+}
+.nav-items ul li:hover:nth-child(3)
+{
+    color: rgb(190, 2, 187);
+}
+.nav-items ul li:hover:nth-child(4)
+{
+    color: rgb(27, 176, 1);
+}
+.nav-items ul li:hover:nth-child(5)
+{
+    color: rgb(198, 5, 5);
+}
+.nav-items ul li:hover:nth-child(6)
+{
+    color: rgb(4, 93, 202);
+}
+.nav-items ul li:hover:nth-child(7)
+{
+    color: rgb(213, 140, 4);
+}
+.nav-items ul li:hover:nth-child(8)
+{
+    color: rgb(190, 2, 187);
+}
+.nav-items ul li:hover:nth-child(9)
+{
+    color: rgb(27, 176, 1);
+}
+.nav-items ul li:hover:nth-child(10)
+{
+    color: rgb(198, 5, 5);
+}
+.nav-items ul li:hover:nth-child(11)
+{
+    color: rgb(4, 93, 202);
+}
+
+.nav-icons i{
+    padding: 0px 8px;
+}
+
+/* Hero Section */
+
+.hero-img{
+    background-image: url(Assets/hero_image.webp);
+    height: 95vh;
+    width: 100%;
+    background-size: cover;
+}
+
+/* Models Section */
+
+.models{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    padding-top: 2rem;
+    justify-content: space-around;
+}
+
+.model{
+    font-size: 0.9rem;
+    color: rgb(45, 45, 45);
+}
+
+.model p{
+    padding-left: 10px;
+}
+
+/* Bestsellers section */
+
+.bestsellers .bestsellers-text{
+    font-size: 48px;
+    padding-top: 2vh;
+    padding-left: 2vw;
+    color: rgba(45, 45, 45, 0.9);
+}
+
+.bestsellers-models{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    padding-top: 2rem;
+    justify-content: space-around;
+}
+
+/* Mood Section */
+
+.moods .moods-text{
+    font-size: 48px;
+    padding-top: 2vh;
+    padding-left: 2vw;
+    color: rgba(45, 45, 45, 0.9);
+}
+
+.moods-models{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    padding-top: 2rem;
+    justify-content: space-evenly;
+}
+
+.moodImg1{
+    width: 450px;
+    height: 594px;
+}
+
+.moodImg1 img{
+    background-size: cover;
+    width: 450px;
+    height: 594px;
+}
+.moodImg2{
+    width: 450px;
+    height: 594px;
+}
+
+.moodImg2 img{
+    background-size: cover;
+    width: 450px;
+    height: 594px;
+}
+.moodImg3{
+    width: 450px;
+    height: 594px;
+}
+
+.moodImg3 img{
+    background-size: cover;
+    width: 450px;
+    height: 594px;
+}
+
+.moods-models p{
+    padding-top: 1.4rem;
+}
+
+/* Environment Section */
+
+.environment{
+    width: 100%;
+    height: 40vh;
+    margin-top: 30vh;
+    display: flex;
+}
+
+.box1{
+    width: 50vw;
+    background-color: #597560;
+    height: 60vh;
+    color: #FBEBB1;
+    padding: 5rem 4rem;
+}
+
+.box1 :nth-child(1){
+    font-size: 48px;
+}
+.box1 :nth-child(2){
+    font-size: 48px;
+    margin-top: -0.5rem;
+    padding-bottom: 2.6rem;
+}
+
+.box1 :nth-child(3)
+{
+    font-size: 20px;
+}
+
+.box1 :nth-child(4)
+{
+    margin-top: 2.6rem;
+    cursor: pointer;
+}
+
+.box2{
+    width: 50vw;
+    background-color: #597560;
+    height: 60vh;
+}
+
+.box2 img{
+    width: 50vw;
+    height: 60vh;
+}
+
+.email-section{
+    background-color: #FAEBB0;
+    width: 100vw;
+    height: 57vh;
+    display: flex;
+    justify-content: center;
+}
+
+.email-section .email-heading{
+    color: #07285d;
+    display: flex;
+    flex-direction: column;
+    padding-top: 27vh;
+}
+
+.email-section .email-heading span{
+    font-size: 42px;
+}
+
+.email-section .email-heading input{
+    margin-top: 1.3rem;
+    padding: 0.5rem;
+    border: 1px solid transparent;
+    border-radius: 10px
+}
+
+/* Footer Section */
+
+.footer{
+    height: 45vh;
+}
+
+.footer-items{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+
+.footer-items ul li{
+    list-style: none;
+    padding-top: 5px;
+    text-decoration: underline;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer-icons i{
+    padding: 10px;
+    font-size: 35px;
+    padding-top: 15px;
+}
+
+.footer-img{
+    width: 10vw;
+    height: 5vh;
+}
+
+.footer-img img{
+    background-size: cover;
+    width: 10vw;
+    height: 5vh;
+    margin-left: 44.5vw;
+    margin-top: 20px;
+}
+
+.footer-text{
+    padding-top: 2.5rem;
+    text-align: center;
+}
